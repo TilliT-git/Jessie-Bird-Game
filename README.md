@@ -14,6 +14,7 @@ Just go to the **Releases** section, download the `Game.apk` file, and install i
 * Game over and restart screen.
 
 ## Technologies:
-* **Engine:** Unity (your Unity version, e.g., 2022.3)
+
+* **Engine:** Unity version  2022.3.62f3
 * **Programming Language:** C#
 * **Platform:** Android
