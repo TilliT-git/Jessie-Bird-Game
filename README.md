@@ -1,18 +1,19 @@
 # Jessie Bird
 
-Простенький 2D-арканоид/кликер на Unity, созданный по мотивам игры Flappy Bird. Мой учебный проект для освоения C# и работы с физикой в Unity.
+A simple 2D Arkanoid/clicker game in Unity, inspired by the game Flappy Bird. My tutorial project for learning C# and working with physics in Unity.
 
-## Как поиграть?
-Вам не обязательно скачивать весь код проекта и устанавливать Unity! 
-Просто зайдите в раздел **Releases**, скачайте файл `Game.apk` и установите его на свой Android-телефон или эмулятор.
+## How to play?
+You don't need to download the entire project code and install Unity!
 
-## Что реализовано в игре:
-* Механика прыжка птички по нажатию на экран.
-* Автоматический спавн препятствий со случайной высотой.
-* Подсчет очков за успешное прохождение препятствий.
-* Экран окончания игры и перезапуск.
+Just go to the **Releases** section, download the `Game.apk` file, and install it on your Android phone or emulator.
 
-## Технологии:
-* **Движок:** Unity (версия твоей юнити, например, 2022.3)
-* **Язык программирования:** C#
-* **Платформа:** Android
+## Features:
+* Bird jumping mechanics by tapping the screen.
+* Automatically spawning obstacles with random heights.
+* Scoring for successfully completing obstacles.
+* Game over and restart screen.
+
+## Technologies:
+* **Engine:** Unity (your Unity version, e.g., 2022.3)
+* **Programming Language:** C#
+* **Platform:** Android
