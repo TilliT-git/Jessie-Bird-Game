@@ -8,6 +8,7 @@ public class MusicManager : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = 120;
         _musicManager.volume = PlayerPrefs.GetFloat("MusicVolume", 1f);
         _musicManager.clip = _musicGame;
         _musicManager.loop = true;
