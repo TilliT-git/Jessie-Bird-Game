@@ -67,18 +67,6 @@ public class ScreenManager : MonoBehaviour
         _settingsScreen.SetActive(false);
     }
 
-    public void ResumeGame()
-    {
-        if(_checkDeath._isDeath) return;
-
-        _isPause = !_isPause;
-        OnButtonClick?.Invoke();
-        OnResumeGame?.Invoke();
-
-        _pauseScreen.SetActive(false);
-        _scoreText.SetActive(true);
-    }
-
     public void RestartGame()
     {
         OnButtonClick?.Invoke();
